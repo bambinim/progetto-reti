@@ -29,12 +29,8 @@ def main():
     global server
     signal.signal(signal.SIGINT, sigint_handler)
     args = parse_args()
-    # change working directory to ./public so http server gets files from there
-    # os.chdir(os.path.dirname(__file__) + '/public')
-    # server = socketserver.ThreadingTCPServer((args.bind_address, args.port), http.server.SimpleHTTPRequestHandler)
-    # server = socketserver.ThreadingTCPServer((args.bind_address, args.port), HttpHandler)
     server = socketserver.TCPServer((args.bind_address, args.port), HttpHandler)
-    # server.daemon_threads = True
+    server.daemon_threads = True
     server.allow_reuse_address = True
     try:
         while True:
@@ -42,7 +38,6 @@ def main():
             server.serve_forever()
     except KeyboardInterrupt:
         pass
-    server.server_close()
 
 
 if __name__ == '__main__':
