@@ -1,0 +1,22 @@
+[
+  {
+    "name":  "Pronto Soccorso",
+    "path":  "/servizi/pronto-soccorso",
+    "description": "Ricorrono al Pronto soccorso le persone che hanno bisogno di cure urgenti. Si può accedere al Pronto soccorso direttamente o in ambulanza, nei casi più gravi, telefonando al 118. L’accesso alle prestazioni di pronto soccorso avviene dopo una valutazione di priorità, in base alla gravità e urgenza, che classifica ogni accesso secondo codici colore."
+  },
+  {
+    "name":  "Guardia Medica",
+    "path":  "/servizi/guardia-medica",
+    "description": "Si tratta di un servizio di guardia medica che prosegue l'attività' del Medico di Famiglia e del Pediatra di Libera Scelta nei giorni e orari in cui queste figure non sono presenti: nelle ore notturne e nei giorni prefestivi e festivi. Le funzioni che svolge sono sovrapponibili a quelle effettuate dal Medico di Famiglia e dal Pediatra di Libera Scelta."
+  },
+  {
+    "name":  "Screening Oncologici",
+    "path":  "/servizi/screening",
+    "description": "Lo screening oncologico è un intervento di salute pubblica gratuito che consiste nell’invitare la popolazione, apparentemente sana ma potenzialmente esposta al rischio di contrarre il cancro, a sottoporsi a esami di prevenzione e diagnosi precoce."
+  },
+  {
+    "name":  "Formazione e Tirocinio",
+    "path":  "/servizi/formazione",
+    "description": "Per formazione continua s’intende l’insieme delle attività, successive alla formazione iniziale, finalizzate al continuo adeguamento delle capacità d’intervento rispetto allo sviluppo scientifico, tecnico e organizzativo dell’assistenza e al mutare della domanda di salute della popolazione. La formazione continua è uno degli strumenti fondamentali per garantire nel tempo le prestazioni del Servizio Sanitario. Ogni professionista della sanità ha l’obbligo d’impegnarsi nell’apprendimento continuo sollecitato dalla rapidità con cui si trasformano le conoscenze acquisite e con cui si modificano le tecnologie e le organizzazioni in cui si opera."
+  }
+]
