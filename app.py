@@ -1,10 +1,8 @@
 #!/usr/bin/env python
-import http.server
 import socketserver
 import signal
 import argparse
 import sys
-import os
 from httphandler import HttpHandler
 
 
@@ -29,7 +27,7 @@ def main():
     global server
     signal.signal(signal.SIGINT, sigint_handler)
     args = parse_args()
-    server = socketserver.TCPServer((args.bind_address, args.port), HttpHandler)
+    server = socketserver.ThreadingTCPServer((args.bind_address, args.port), HttpHandler)
     server.daemon_threads = True
     server.allow_reuse_address = True
     try:
